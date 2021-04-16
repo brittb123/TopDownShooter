@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovementBehaviour : MonoBehaviour
 {
-    [Tooltip("How fast the p[layer will move.")]
+    [Tooltip("How fast the player will move.")]
     [SerializeField]
     private float _moveSpeed;
     [Tooltip("The current active camera. Used to get mouse position for rotation.")]
